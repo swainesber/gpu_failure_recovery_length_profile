@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "swainesber-aiefficiency_jd319"
+name = "swainesber-gpu_failure_recovery_length_profile"
 version = "0.1.0"
 description = "按段落统计AI 工程效率工具工程师·GPU 故障与作业自愈相关的长度分布，标出过长、过短与重复表达的部分"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://swainesber.github.io"
-Repository = "https://github.com/swainesber/aiefficiency_jd319"
-Issues = "https://github.com/swainesber/aiefficiency_jd319/issues"
+Repository = "https://github.com/swainesber/gpu_failure_recovery_length_profile"
+Issues = "https://github.com/swainesber/gpu_failure_recovery_length_profile/issues"
 
 [project.scripts]
-aiefficiency_jd319 = "aiefficiency_jd319:main"
+gpu_failure_recovery_length_profile = "gpu_failure_recovery_length_profile:main"
 
 [tool.setuptools]
-py-modules = ["aiefficiency_jd319"]
+py-modules = ["gpu_failure_recovery_length_profile"]

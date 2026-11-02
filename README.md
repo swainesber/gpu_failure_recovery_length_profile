@@ -1,11 +1,11 @@
-# aiefficiency_jd319
+# gpu_failure_recovery_length_profile
 
 **统计AI 工程效率工具工程师·GPU 故障与作业自愈各部分的长度占比并标出异常。**
 
-`aiefficiency_jd319` —— 按段落统计AI 工程效率工具工程师·GPU 故障与作业自愈相关的长度分布，标出过长、过短与重复表达的部分
+`gpu_failure_recovery_length_profile` —— 按段落统计AI 工程效率工具工程师·GPU 故障与作业自愈相关的长度分布，标出过长、过短与重复表达的部分
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`aiefficiency_jd319.py` 拷走就能用
+- 单文件，`gpu_failure_recovery_length_profile.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install swainesber-aiefficiency_jd319
+pip install swainesber-gpu_failure_recovery_length_profile
 ```
 
 装完直接用命令名调用：
 
 ```bash
-aiefficiency_jd319 --help
+gpu_failure_recovery_length_profile --help
 ```
 
-也可以不用安装，直接把 `aiefficiency_jd319.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `gpu_failure_recovery_length_profile.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ aiefficiency_jd319 --help
 ## 用法
 
 ```bash
-python aiefficiency_jd319.py --file input.txt
-python aiefficiency_jd319.py --text "示例内容"
-python aiefficiency_jd319.py --file input.txt --json
+python gpu_failure_recovery_length_profile.py --file input.txt
+python gpu_failure_recovery_length_profile.py --text "示例内容"
+python gpu_failure_recovery_length_profile.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python aiefficiency_jd319.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_aiefficiency_jd319.py
+python test_gpu_failure_recovery_length_profile.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_aiefficiency_jd319.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/swainesber/aiefficiency_jd319>
+- GitHub 仓库：<https://github.com/swainesber/gpu_failure_recovery_length_profile>
 
 ---
 
@@ -79,7 +79,7 @@ python test_aiefficiency_jd319.py
 swainesber 做AI 工程效率工具工程师·GPU 故障与作业自愈相关的问题，方向对标宇树科技的架构AI 工程效率工具工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://swainesber.github.io>
-- 仓库：<https://github.com/swainesber/aiefficiency_jd319>
+- 仓库：<https://github.com/swainesber/gpu_failure_recovery_length_profile>
 
 ## 许可
 
